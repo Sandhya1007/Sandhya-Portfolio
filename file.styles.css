@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --primary-color: #00BFA6;
+    --dark-primary: #026e5f;
+    --dark-gray:#636e72;
+    --off-white:#f5f6fa;
+}
+body{
+    font-family: 'Montserrat',
+     sans-serif;
+     margin: 0px;
+     
+     
+}
+.space-md{
+    padding:20rem;
+    
+}
+hr{
+    margin: 2rem 0rem;
+}
+
+/* container */
+
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    
+}
+.link-primary:hover{
+    background-color: var(--dark-primary);
+}
+.link-secondary{
+    color: var(--primary-color);
+    border:1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+.link-secondary:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+/* navbar */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .navbrand{
+    padding-top: 1rem;
+}
+.navigation .navbrand a{
+    
+    font-weight: bold;
+    padding: 0rem 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation .link{
+    color: white;
+    
+}
+.navigation .navpills{
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.navpills a:hover{
+    color: black;
+    background-color: var(--dark-primary);
+    border-radius: 0.5rem;
+}
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+.hero .image-hero{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .heading-hero{
+    padding-top: 1rem;
+    color:var(--dark-gray);
+    text-align: center;
+}
+.hero .heading-hero .heading-highlighted{
+    color: var(--primary-color);
+}
+
+/* section */
+.section{
+    padding:2rem;
+
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.icon-size{
+    font-size: 3rem;
+}
+
+/* for projects page */
+
+.card{
+    padding:2rem 0rem;
+
+}
+
+
+
+
