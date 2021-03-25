@@ -1,0 +1,58 @@
+:root{
+    --dark-gray:#3d3d3d;
+    --white:#ffffff;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* links */
+.link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--white);
+    
+}
+/* navigation bar */
+.navbar{
+    background-color: var(--dark-gray);
+    color: var(--white);
+    padding: 0.5rem;
+}
+.navbrand{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.navbar-items{
+    list-style: none;
+    text-align: right;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
+    
+}
+/* main container */
+.container{
+    padding: 0rem 1rem;
+   
+}
+.container-center{
+    margin: auto;
+    max-width: 800px;
+    background-color: turquoise;
+}
+
+/* section */
+.section{
+    padding: 0.5rem 0.3rem;
+    margin-top: 1rem;  
+}
+.section .link{
+    font-size: 2rem;
+}
+.section .para{
+    font-size: 1.2rem;
+}
+
