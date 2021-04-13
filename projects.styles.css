@@ -9,6 +9,7 @@ body{
     font-family: 'Montserrat',
      sans-serif;
      margin: 0px;
+     overflow: hidden;
      
      
 }
@@ -158,6 +159,16 @@ hr{
 .card{
     padding:2rem 0rem;
 
+}
+
+/* media queries */
+
+@media screen and (max-width:300px) {
+
+    .link-secondary{
+        margin-top: 1rem;
+    }
+    
 }
 
 
