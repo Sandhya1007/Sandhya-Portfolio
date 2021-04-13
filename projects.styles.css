@@ -164,6 +164,12 @@ hr{
 
 /* media queries */
 @media screen and (max-width:361px) {
+    body{
+        overflow-x: hidden;
+    }
+    .hero .image-hero{
+        max-width: 300px;
+    }
     .buttons{
         display: flex;
         flex-direction: row;
@@ -196,6 +202,9 @@ hr{
     
    body{
        overflow-x: hidden;
+   }
+   .hero .image-hero{
+       max-width: 230px;
    }
 
     .navigation,.footer{
