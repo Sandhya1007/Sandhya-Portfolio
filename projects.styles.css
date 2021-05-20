@@ -163,7 +163,7 @@ hr{
 }
 
 /* media queries */
-@media screen and (max-width:361px) {
+@media screen and (max-width:400px) {
     body{
         overflow-x: hidden;
     }
@@ -172,13 +172,15 @@ hr{
     }
     .buttons{
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        
+        /* align-items: center; */
         
     }
     .link-primary,.link-secondary{
         padding:0.4rem 0.3rem;
         text-align: center;
+        margin: 0.3rem;
     }
     .navpills{
         display: flex;
