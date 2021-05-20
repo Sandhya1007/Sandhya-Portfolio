@@ -158,7 +158,7 @@ hr{
 /* for projects page */
 
 .card{
-    padding:2rem 0rem;
+    padding:1rem 0rem;
 
 }
 
@@ -167,6 +167,7 @@ hr{
     body{
         overflow-x: hidden;
     }
+   
     .hero .image-hero{
         max-width: 300px;
     }
